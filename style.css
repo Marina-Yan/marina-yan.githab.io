@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 400;
+    src: url("assets/fonts/TTLakesCondensed-Regular.woff"),
+    url("assets/fonts/TTLakes-DemiBold.ttf");
+  }
+
+body{max-width: 320px; margin: 0;  font-family: "TT Lakes", "Arial", sans-serif;}
+.container { overflow: auto;}
+.header{display: flex; height: 88px; 
+background-color: white;  }
+.icon{height: 40px; width: 40px; margin: 24px 8px; }
+.header__logo {margin-top: 18.59px; 
+margin-left: 8px;
+margin-right: 8px;}
+main {background-color: #F8F8F8;margin: 0; width: 800px;}
+
+.header__divider
+  {border-left: 2px solid #EAEAEA;
+  height: 32;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+.title
+  {display:flex;   }
+
+.title__line{border-right: 4px solid #41F6D7;
+  height: 40;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-left: 0px;
+  margin-right: 0px;
+ border-radius: 180px;}
+
+.title__text{width: 288px;
+  height: 40px;    
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  padding: 5px;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1B1C21;}
+
+.options{ display: flex; margin-left: 16px; 
+  color:  #7E7E82; }
+.opt{font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    height: 24px;
+    padding: 8px 9.3px 8px 16.54px;
+    margin: 0;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;}
+
+.options__repairing-devices{background-color:#FFFFFF;
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+  height:24px;
+  width:220px;}
+
+.information {
+  display:inline-block;
+  width: 288px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color:#1B1C21;}    
+
+.futher{display: flex;}  
+.futher__icon{margin-left: 24px;
+margin-right: 16px;
+}
+.photo{display: flex;
+ }
+.photo__schedule{width: 320px;
+margin-top: 8px;
+margin-bottom: 25px;}
