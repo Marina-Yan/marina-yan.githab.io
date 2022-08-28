@@ -3,17 +3,21 @@
         
         <head> 
             <meta charset="utf-8">
-            <link href="style.css" rel="stylesheet">
+            
+            <link rel="stylesheet" media="screen and (max-width: 320px)" href="mobile.css">
+            <link rel="stylesheet" media="screen and (min-width: 768px)" href="tablet.css">
+            <link rel="stylesheet" media="screen and (min-width: 1120px)" href="computer.css">
         </head>
     <body>
         <section class="container">
             <header class="header">
                 <div class="header__burger icon"><img src="assets/img/icon/burger.png"></div>
                 <div class="header__logo"><img src="assets/img/logo/Group.png" alt="логотип"></div>
-                <div class="header__divider"></div>
+                <div class="header__divider leftdivider"></div>
                 <div class="header__call icon"><img src="assets/img/icon/call.png"></div>
                 <div class="header__chat icon"><img src="assets/img/icon/chat.png"></div>
                 <div class="header__profile icon"><img src="assets/img/icon/profile.png"></div>
+                <div class="header__divider"></div>
                 <div class="header__repair icon"><img src="assets/img/icon/repair.png"></div>
                 <div class="header__checkstatus icon"><img src="assets/img/icon/checkstatus.png"></div>
             </header>
@@ -28,16 +32,17 @@
                     <div class="opt options__prices"> Цены на услуги</div>
                     <div class="opt options__spec-prices"> Специальные цены</div>
                 </div>
-
-                <article class="information"> Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</article>
+            <section class="part">
                 <div class="futher">
+                    <article class="futher__information"> Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</article>
+                    <article class="futher__information-2"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера.</article>
+                   <div class="further-sign">
                     <div class="futher__icon"><img src="assets/img/ic/expand.png"> </div>
                     <div class="futher__text"> Читать далее</div>
-                </div>
-
-                <div class="photo">
-                    <img class="photo__schedule" src="assets/img/photo/_MG_3223.png">
-                </div>
+                   </div> </div>
+                        <img class="futher__schedule" src="assets/img/photo/_MG_3223.png">
+                
+            </section>
             </main>    
         </section>
     </body>    
